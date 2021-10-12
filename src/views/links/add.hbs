@@ -1,0 +1,16 @@
+
+
+
+
+  <div class="drag-area">
+    <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+    <header>Arrastra o selecciona un archivo de excel</header>
+    <span></span>
+    
+    <form action="/links/add" method="post" enctype="multipart/form-data">
+<input type="file" accept=".xls, .xlsx" name="excel">
+  <button type="submit">Enviar</button>
+</form>
+  </div>
+
+  <script src="/js/excelform.js"></script>
